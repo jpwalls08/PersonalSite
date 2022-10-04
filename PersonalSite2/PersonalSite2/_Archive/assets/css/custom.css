@@ -1,0 +1,15 @@
+.hero
+{
+    background-image: url("/assets/Img/chanbora-chhun-Zb-0ZtMpWvk-unsplash.jpg");
+}
+
+#hero p 
+{
+    text-align: center;
+}
+
+/* #row skills-content
+{
+    top: 10;
+} */
+/* #endregion */
