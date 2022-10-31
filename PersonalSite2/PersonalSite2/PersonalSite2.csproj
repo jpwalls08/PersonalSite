@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\img\icons8-user-location-48.png" />
+    <Content Remove="wwwroot\assets\img\icons8-user-location-64.png" />
+    <Content Remove="wwwroot\assets\img\JW.png" />
+    <Content Remove="wwwroot\assets\img\profile-img.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="wwwroot\.vscode\settings.json" />
   </ItemGroup>
 
@@ -272,6 +279,10 @@
     <None Include="wwwroot\.git\refs\remotes\origin2\master" />
     <None Include="wwwroot\.git\refs\remotes\origin\main" />
     <None Include="wwwroot\.git\refs\remotes\origin\master" />
+    <None Include="wwwroot\assets\img\icons8-user-location-48.png" />
+    <None Include="wwwroot\assets\img\icons8-user-location-64.png" />
+    <None Include="wwwroot\assets\img\JW.png" />
+    <None Include="wwwroot\assets\img\profile-img.jpg" />
   </ItemGroup>
 
   <ItemGroup>
