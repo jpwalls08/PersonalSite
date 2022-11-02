@@ -55,32 +55,39 @@
                 <ul>
                     @*<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>*@
                     <li>
-                        @Html.ActionLink("Home", "Index", "Home", null, null, "hero", null, new{
-                        @class = "nav-link scrollto"
-                        })
+                        <a href="@Url.Action("Index", "Home", null, null, null, "hero")" class="nav-link scrollto">
+                            <i class="bx bx-home"></i>
+                            <span>Home</span>
+                        </a>
                     </li>
                     @*<li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>*@
                     <li>
-                        @Html.ActionLink("About", "Index", "Home", null, null, "about", null, new{
-                        @class = "nav-link scrollto"
-                        })
+                        <a href="@Url.Action("Index", "Home", null, null, null, "about")" class="nav-link scrollto">
+                            <i class="bx bx-user"></i>
+                            <span>About</span>
+                        </a>
                     </li>
                     @*<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>*@
                     <li>
-                        @Html.ActionLink("Resume", "Index", "Home", null, null, "resume", null, new{
-                        @class = "nav-link scrollto"
-                        })
+                        <a href="@Url.Action("Index", "Home", null, null, null, "resume")" class="nav-link scrollto">
+                            <i class="bx bx-file-blank"></i>
+                            <span>Resume</span>
+                        </a>
                     </li>
                     @*<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>*@
                     <li>
-                        @Html.ActionLink("Portfolio", "Index", "Home", null, null, "portfolio", null, new{
-                        @class = "nav-link scrollto"
-                        })
+                        <a href="@Url.Action("Index", "Home", null, null, null, "portfolio")" class="nav-link scrollto">
+                            <i class="bx bx-book-content"></i>
+                            <span>Portfolio</span>
+                        </a>
                     </li>
                     @*<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>*@
-                    <li>@Html.ActionLink("Services", "Index", "Home", null, null, "services", null, new{
-                        @class = "nav-link scrollto"
-                    })</li>
+                    <li>
+                        <a href="@Url.Action("Index", "Home", null, null, null, "services")" class="nav-link scrollto">
+                            <i class="bx bx-server"></i>
+                            <span>Services</span>
+                        </a>
+                    </li>
                     @*<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Contact</span></a></li>*@
                     <li><a href="@Url.Action("Contact", "Home")" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contact</span></a></li>
                 </ul>
