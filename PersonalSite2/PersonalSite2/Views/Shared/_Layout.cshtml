@@ -84,14 +84,30 @@
                     @*<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>*@
                     <li>
                         <a href="@Url.Action("Index", "Home", null, null, null, "services")" class="nav-link scrollto">
-                            <i class="bx bx-server"></i>
-                            <span>Services</span>
+                            <i class="bx bx-badge"></i>
+                            <span>Certifications</span>
                         </a>
                     </li>
                     @*<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Contact</span></a></li>*@
                     <li><a href="@Url.Action("Contact", "Home")" class="nav-link scrollto"><i class="bx bx-envelope"></i><span>Contact</span></a></li>
                 </ul>
-            </nav><!-- .nav-menu -->
+            </nav><!-- .nav-menu -->                        
+        </div>
+        <div>
+            <footer id="footer">
+                <div class="container">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>John Walls Profile Website. All Rigths Reserved. Start Bootstrap LLC @DateTime.Now.Year</span></strong>
+                    </div>
+                    <!-- <div class="credits"> -->
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+                    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+                    <!-- </div> -->
+                </div>
+            </footer><!-- End  Footer -->
         </div>
     </header><!-- End Header -->
     @RenderSection("Hero", required: false)
@@ -103,20 +119,7 @@
 
     </main><!-- End #main -->
     <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>John Walls Profile Website. All Rigths Reserved. Start Bootstrap LLC @DateTime.Now.Year</span></strong>
-            </div>
-            <!-- <div class="credits"> -->
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-            <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-            <!-- </div> -->
-        </div>
-    </footer><!-- End  Footer -->
+    
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

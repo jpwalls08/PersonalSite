@@ -1,0 +1,97 @@
+Personal Site Completion Requirements (Stage / Prod):
+
+
+********* ERRORS/Issues: *********
+- Images not converting to thumbnails or showing up
+- Tile view - 404 Error (All Roles)
+
+
+********* TO-DO *********
+---- Personal Site ----
+- Fix page (Views) layouts **Bootstrap & CSS** );<
+- Add projects
+- Fix Classroom photos **Bootstrap & CSS** );<
+
+
+********* Stage / Check Point 1: *********
+
+COMPLETE:
+- The project history is tracked using Git and the code base is stored in a public repository on Github. (Complete)
+- A template has been selected, downloaded, and converted. The template must include Bootstrap. (Complete)
+- All necessary HTML pages have been created, including Index, Resume, Portfolio, Links, and Contact. (Complete)
+
+
+INCOMPLETE:
+- All Lorem Ipsum has been removed from the site and each page has been built out with the appropriate content. (Incomplete)
+
+
+
+********* Stage / Check Point 2: *********
+
+COMPLETE:
+- You have customized the site by adding your own styling. (Complete
+- You have built and incorporated at least one CSS animation. (Complete)
+- The contact form has been built (but does not send messages yet) and includes inputs for Name, Email, Subject, and Message at minimum. (Complete)
+- The first version of the project has been deployed and all code has been pushed to the Github repo. (Complete)
+
+
+INCOMPLETE:
+- All stock images have been replaced with your images or with stock images sourced from royalty free sources like Unsplash.com. (Incomplete)
+- Replace all Lorem Ipsum and scaffolded demo content. (Incomplete)
+- Replace all template images with your photos or free stock images sourced from any of the resources provided in FUI. (Incomplete)
+
+
+
+********* Stage / Check Point 3: *********
+COMPLETE:
+- Ensure that the Links page has links to your classmate's website and/or their LinkedIn profile. It is a good idea to display their pictures (can be retrieved from LinkedIn) with the links. (Complete)
+- Incorporate a jQuery plugin of your choice into your site. (Complete)
+- Ensure that you have a responsive navbar. If your template did not come with a responsive navbar, utilize the example built in Principals of User Experience. (Complete)
+- Ensure the content on the Resume page has been updated and is accurate. (Complete)
+- Visitors can click a link and download the PDF version of your resume from either Index or Resume page. (Complete)
+
+
+INCOMPLETE:
+- Consume and display data from an API of your choice on your personal site. (Incomplete)
+- Replace all Lorem Ipsum and scaffolded demo content. (Incomplete)
+- Replace all template images with your photos or free stock images sourced from any of the resources provided in FUI. (Incomplete)
+
+
+
+********* Stage / Check Point 4: *********
+COMPLETE:
+
+
+INCOMPLETE:
+- Create a new public repository and project for PersonalSiteMVC. Bring all of your personal site files into an Archive folder. As you push changes to this repo, ensure that you are not pushing email or database passwords as those will be openly viewable. (Incomplete)
+- Covert your HTML site to MVC. (Incomplete)
+- Create a working contact form that sends submissions to your email. (Note: ensure that no username and password info is pushed to the public Github repo.) (Incomplete)
+
+
+
+********* Prod / Final Check Point: *********
+COMPLETE:
+- Implement client-side or server-side filters and paging for list views. (Complete)
+
+
+INCOMPLETE:
+- Implement a session-based shopping cart. (Incomplete)
+* Each project should be accompanied by a picture, a description of the project, and a link to view the project (either on Github for the Dungeon Application or live on a subdomain for all other projects).
+- The Portfolio page has a link to all portfolio projects. (Incomplete)
+- he final version of the Personal Site MVC project has been deployed and all code has been pushed to the Github repo. (Note: ensure that you are not pushing usernames or passwords.) (Incomplete)
+
+
+
+********* Extra Features *********
+- Favorite Items (Header)
+- Cross-Functional (CX, UX, UI, Dev)
+*Solid design system (i.e., Typeface, Color, etc.)
+*Clear patterns (CX / UX) **Creates new users to pick up patterns**
+**Agile Methodology**
+
+
+
+
+
+
+
