@@ -12,7 +12,8 @@
     <Content Remove="wwwroot\assets\img\icons8-user-location-64.png" />
     <Content Remove="wwwroot\assets\img\JW.png" />
     <Content Remove="wwwroot\assets\img\profile-img.jpg" />
-    <Content Remove="wwwroot\JohnWallsResumeIT.pdf" />
+    <Content Remove="wwwroot\forms\contact.php" />
+    <Content Remove="wwwroot\forms\Readme.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -284,7 +285,8 @@
     <None Include="wwwroot\assets\img\icons8-user-location-64.png" />
     <None Include="wwwroot\assets\img\JW.png" />
     <None Include="wwwroot\assets\img\profile-img.jpg" />
-    <None Include="wwwroot\JohnWallsResumeIT.pdf" />
+    <None Include="wwwroot\forms\contact.php" />
+    <None Include="wwwroot\forms\Readme.txt" />
   </ItemGroup>
 
   <ItemGroup>

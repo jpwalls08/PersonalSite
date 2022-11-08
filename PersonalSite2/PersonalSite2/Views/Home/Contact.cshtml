@@ -1,4 +1,6 @@
-﻿@{
+﻿@model PersonalSite2.Models.ContactViewModel
+
+@{
     ViewData["Title"] = "Contact";
 }
 
@@ -71,3 +73,8 @@
 
     </div>
 </section><!-- End Contact Section -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
