@@ -9,7 +9,7 @@ namespace PersonalSite2.Models
         [Required(ErrorMessage = "*Name is required")] //Makes the field required
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "*")]
+        [Required(ErrorMessage = "*Email is required")]
         //[DataType(DataType.EmailAddress)] //Certain formatiing is expected (@ symbol, .com, etc.)
         [EmailAddress(ErrorMessage = "*Must be a valid Email")]
         public string Email { get; set; }

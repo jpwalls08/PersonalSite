@@ -12,7 +12,6 @@
     <Content Remove="wwwroot\assets\img\icons8-user-location-64.png" />
     <Content Remove="wwwroot\assets\img\JW.png" />
     <Content Remove="wwwroot\assets\img\profile-img.jpg" />
-    <Content Remove="wwwroot\forms\contact.php" />
     <Content Remove="wwwroot\forms\Readme.txt" />
   </ItemGroup>
 
@@ -24,9 +23,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -285,7 +288,6 @@
     <None Include="wwwroot\assets\img\icons8-user-location-64.png" />
     <None Include="wwwroot\assets\img\JW.png" />
     <None Include="wwwroot\assets\img\profile-img.jpg" />
-    <None Include="wwwroot\forms\contact.php" />
     <None Include="wwwroot\forms\Readme.txt" />
   </ItemGroup>
 
